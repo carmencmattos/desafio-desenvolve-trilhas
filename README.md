@@ -1,2 +1,6 @@
-# desafio-trilhas-desenvolve
-Realizado no curso de formação Desenvolve 2023 
+# Desafio Desenvolve 2023 
+
+
+Projeto educacional com o objetivo de construir a Landing Pade das trilhas oferecidas no Programa Desenvolve 2023.
+
+
