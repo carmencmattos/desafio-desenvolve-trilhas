@@ -75,7 +75,7 @@
     }
 
     .card {
-        height: 280px;
+        height: 300px;
         width: 45%;    
     }
 
@@ -85,13 +85,13 @@
     
     .descricao {
         font-size: 1.0rem;
-        margin-bottom: 27%;
+        margin-bottom: 22%;
     }
     
     .botao {
         width: 120px;
-        height: 15px;
-        font-size: 1.1rem;
+        height: 20px;
+        font-size: 1.2rem;
         align-items: center;
     }
 
@@ -103,15 +103,19 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-evenly;
-        padding-right: 5%;
-        padding-left: 5%;
+        justify-content: center;
+        padding-right: 15%;
+        padding-left: 15%;
     
     }
     
     .imagens-rodape {
-        width: 195px;
-        height: 65px;  
+        width: 50%;
+
+    }
+    
+    .icones {
+        width: 30%;
     }
 
     .logo-desenvolve-detalhada {
@@ -125,22 +129,33 @@
 
 
     
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 536px) and (max-width: 767px) {
+    .container-elementos-header {
+        width: 80%;
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
+    
+    .titulo-principal {
+        font-size: 2.2rem;
+        font-weight: 400; 
+    }
+
+    .logo-desenvolve-simplificada {
+        display: none;
+    }
+    
     .label-pesquisa {
         display: none;
     }
 
-    .container-elementos-header {
-        width: 80%;
-        max-width: 800px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-right: 10%;
-        padding-left: 10%;
-    }
-
+    
     .trilhas {
         width: 80%;
         max-width: 600px;
@@ -165,15 +180,36 @@
     }
     
     .descricao {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin-bottom: 20%;
     }
     
     .botao {
         width: 140px;
-        height: 20px;
-        font-size: 1.2rem;
+        height: 30px;
+        font-size: 1.3rem;
         align-items: center;
+    }
+
+    .footer {
+        width: 100%;
+        height: 80px;
+        background-color: #FFFFFF;
+        margin-top: 3%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
+    .imagens-rodape {
+        width: 45%;
+
+    }
+
+    .icones {
+        width: 25%;
     }
 
     .logo-desenvolve-detalhada {
@@ -184,4 +220,112 @@
         display: none;
     }
 
+    .grupo-boticario {
+        display: none;
+    }
+
 }
+
+    @media (min-width: 320px) and (max-width: 535px) {
+        .container-elementos-header {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-right: 10%;
+            padding-left: 10%;
+        }
+        
+        
+        .titulo-principal {
+            font-size: 2rem;
+            font-weight: 400;
+        }
+        
+        .logo-desenvolve-simplificada {
+            display: none;
+        }
+        
+        .label-pesquisa {
+            display: none;
+        }
+        
+        
+        .trilhas {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        
+        .card {
+            height: 350px;
+            width: 90%;
+        }
+        
+        .titulo {
+            font-size: 1.6rem;
+        }
+        
+        .descricao {
+            font-size: 1.2rem;
+            margin-bottom: 25%;
+        }
+        
+        .botao {
+            width: 140px;
+            height: 30px;
+            font-size: 1.3rem;
+            align-items: center;
+        }
+        
+        .footer {
+            width: 100%;
+            height: 120px;
+            background-color: #FFFFFF;
+            margin-top: 3%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+            padding-right: 10%;
+            padding-left: 10%;
+            padding-top: 1%;
+            
+        }
+        
+        .imagens-rodape {
+            width: 10%;
+            height: 10%;
+            padding-bottom: 25%;
+           
+               
+        }
+        
+        .icones {
+            width: 10%;
+            height: 10%;
+            padding-bottom: 25%;
+        }
+        
+        .logo-desenvolve-detalhada {
+            display: none;
+        }
+        
+        .regulamento {
+            display: none;
+        }
+        
+        .grupo-boticario {
+            display: none;
+        }
+    }
+
