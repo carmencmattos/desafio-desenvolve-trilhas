@@ -1,0 +1,187 @@
+/* media queries */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .card {
+        height: 390px;
+        width: 32%;
+        border-radius: 4px;
+        margin-top: 3%;
+    }
+    
+    .titulo {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    
+    .descricao {
+        font-size: 1.2rem;
+        margin-bottom: 35%;
+        }
+}
+
+
+@media (min-width: 960px) and (max-width: 1024px){
+    .card {
+        height: 300px;
+    }
+
+    .titulo {
+        font-size: 1.6rem;
+    }
+
+    .descricao {
+        font-size: 1.1rem;
+        margin-bottom: 29%;
+    }
+
+    .botao {
+        width: 120px;
+        height: 20px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        align-items: center;  
+        padding: 5%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+    .label-pesquisa {
+        display: none;
+    }    
+
+    .container-elementos-header {
+        width: 80%;
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
+
+    .trilhas {
+        width: 80%;
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 4px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .card {
+        height: 280px;
+        width: 45%;    
+    }
+
+    .titulo {
+        font-size: 1.4rem;
+    }
+    
+    .descricao {
+        font-size: 1.0rem;
+        margin-bottom: 27%;
+    }
+    
+    .botao {
+        width: 120px;
+        height: 15px;
+        font-size: 1.1rem;
+        align-items: center;
+    }
+
+    .footer {
+        width: 100%;
+        height: 80px;
+        background-color: #FFFFFF;
+        margin-top: 3%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-right: 5%;
+        padding-left: 5%;
+    
+    }
+    
+    .imagens-rodape {
+        width: 195px;
+        height: 65px;  
+    }
+
+    .logo-desenvolve-detalhada {
+        display: none;
+    }
+
+    .regulamento {
+        display: none;
+    }
+}
+
+
+    
+@media (min-width: 320px) and (max-width: 767px) {
+    .label-pesquisa {
+        display: none;
+    }
+
+    .container-elementos-header {
+        width: 80%;
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .trilhas {
+        width: 80%;
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .card {
+        height: 350px;
+        width: 80%;
+    }
+
+    .titulo {
+        font-size: 1.6rem;
+    }
+    
+    .descricao {
+        font-size: 1.4rem;
+        margin-bottom: 20%;
+    }
+    
+    .botao {
+        width: 140px;
+        height: 20px;
+        font-size: 1.2rem;
+        align-items: center;
+    }
+
+    .logo-desenvolve-detalhada {
+         display: none;
+    }
+    
+    .regulamento {
+        display: none;
+    }
+
+}
